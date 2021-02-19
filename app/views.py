@@ -7,9 +7,10 @@ This file creates your application.
 
 from app import app
 from flask import render_template, request, redirect, url_for, flash
+from .forms import ContactForm
 from app import mail
 from flask_mail import Message
-from .forms import ContactForm
+
 
 
 ###

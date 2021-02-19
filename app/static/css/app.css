@@ -1,7 +1,9 @@
 body {
     padding-top: 5rem;
 }
-
+.required{
+    color: red;
+}
 .flashes {
     color: blue;
     font-weight: bolder;
