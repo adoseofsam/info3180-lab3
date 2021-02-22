@@ -13,7 +13,10 @@
                 <label class = "required"> (Required)</label>
             </div>
             <label>Please enter your full name</label>
-             {{ form.name(class="form-control") }}
+            <div>
+                {{ form.name(size=20) }}
+            </div>
+             <!-- {{ form.name(class="form-control") }} -->
         </div>
         <div class="formlabel">
             <div>
@@ -21,7 +24,10 @@
                 <label class = "required"> (Required)</label>
             </div>
             <label> Please enter your email address</label>
-            {{ form.email(class="form-control") }}
+            <div>
+                {{ form.email(size=20) }}
+            </div>
+            <!-- {{ form.email(class="form-control") }} -->
         </div>
         <div class="formlabel">
             <div>
@@ -29,7 +35,10 @@
                 <label class = "required"> (Required)</label>
             </div>
             <label> Please enter the subject of your message</label>
-             {{ form.subject(class="form-control") }}
+            <div>
+                {{ form.subject(size=20) }}
+            </div>
+             <!-- {{ form.subject(class="form-control") }} -->
         </div>
         <div class="formlabel">
             <div>
@@ -37,7 +46,9 @@
                 <label class = "required"> (Required)</label>
             </div>
             <label> Please enter the message you would like to send</label>
-             {{ form.message(class="form-control", id="textarea") }}
+            <div>
+                {{ form.message(size=20) }}
+            </div>
         </div>
     <button type="submit" class="btn btn-primary">Send</button>
 </form>
